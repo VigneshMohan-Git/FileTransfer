@@ -14,8 +14,8 @@ def winlin(localpath, remotepath, server, userName, password):
     sftp.close()
     ssh.close()
 
-localpath = 'C:/Users/Poovendran/data.csv'
-remotepath = '/home/mclen/dex/dags/data.csv'
+localpath = '*/data.csv' #locapath
+remotepath = '*/data.csv' #destinationpath
 server = '10.10.1.78'
 password = "mclen123"
 userName = 'root'

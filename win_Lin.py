@@ -19,10 +19,13 @@ def winlin(localpath, remotepath, server, userName, password):
 #server = '10.10.1.78'
 #password = "mclen123"
 
-localpath = '\\10.10.1.50\DeX_Source_Win\'
+#windows path
+localpath = '\\10.10.1.50\DeX_Source_Win\' 
+
+#remotepath
 remotepath = '\\10.10.1.100\DeX_Target_Win\'
-server = '10.10.1.78'
-password = "mclen123"
+server = 'serverid'
+password = "password"
 
 # -- Function Call
 winlin(localpath, remotepath, server, userName, password)

@@ -25,7 +25,7 @@ def Copy(source, destination, include_empty_dirs=True):
             
     print("File Transfer Complete")
             
-source = "\\\\10.10.1.50\\DeX_Source_Win\\"
-destination = "\\\\10.10.1.100\\DeX_Target_Win\\"
+source = "sourcepathfolder"
+destination = "destinationpathsource"
 
 Copy(source, destination, include_empty_dirs=True)

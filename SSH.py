@@ -28,8 +28,8 @@ def SSH_put(server, username, password, localpath, remotepath):
     ssh.close()
     
     
-remotepath = "\\\\10.10.1.100\\DeX_Target_Win\\TEST2.csv"
-localpath = 'C:\\Users\\Poovendran\\PycharmProjects\\SampleData\\TEST2.csv'
+remotepath = "*/TEST2.csv"
+localpath = '*/TEST2.csv'
 server = "10.10.1.100"
 username = "ID\Vignesh"
 password= "Welcome@2021"
@@ -37,8 +37,8 @@ password= "Welcome@2021"
 #GET data
 SSH_get(server, username, password, localpath, remotepath)
 
-remotepath = "\\\\10.10.1.100\\DeX_Target_Win\\TEST2.csv"
-localpath = 'C:\\Users\\Poovendran\\PycharmProjects\\SampleData\\TEST2.csv'
+remotepath = "*/TEST2.csv"
+localpath = '*/TEST2.csv'
 server = "10.10.1.100"
 username = "ID\Vignesh"
 password= "Welcome@2021"
